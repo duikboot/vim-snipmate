@@ -1,7 +1,7 @@
 " plugin for loading extra snippets for snipmate
-function LoadSnips(p,)
+function LoadSnippets(p,)
 	for path in split(globpath(a:p, '*.snippets'), '\n') 
-		call ExtractSnipsFile(path, 'javascript') 
+		call ExtractSnipsFile(path, 'tex') 
 	endfor 
 endfunction 
   
